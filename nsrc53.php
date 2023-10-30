@@ -32,5 +32,5 @@ if ($_GET['cmd'] == 'signIn') {
 } elseif ($_GET['cmd'] == 'modulesCard') {
     echo json_encode($mysqli->query('select * from pd join md using (mid)')->fetch_all(MYSQLI_ASSOC));
 } else {
-    echo 'error';
+    echo 'error1234';
 }
